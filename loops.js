@@ -28,6 +28,6 @@ function doWhileLoop(array){
   
   do{
     doWhileArray.pop();
-  }
-  while(maybeTrue() || doWhileArray.length > 0);
+  } while(maybeTrue() && doWhileArray.length > 0);
+  
 }
