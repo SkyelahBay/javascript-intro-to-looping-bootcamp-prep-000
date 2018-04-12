@@ -10,8 +10,10 @@ function whileLoop(n){
 }
 
 function doWhileLoop(array){
-  do{
-    array.
+  if(maybeTrue){
+    do{
+      array.pop();
+    }while(array.length > 0);
   }
-  while(maybeTrue() && (array.length > 0));
+
 }
