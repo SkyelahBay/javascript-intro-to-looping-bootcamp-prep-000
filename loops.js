@@ -7,6 +7,7 @@ function whileLoop(n){
   countdown = n;
   while(countdown > 0){
     countdown--;
+    console.log(countdown);
   }
 }
 
