@@ -21,5 +21,13 @@ function whileLoop(n){
 }
 
 function doWhileLoop(array){
+  var doWhileArray = array;
+  function maybeTrue(){
+    return Math.random() >= 0.5;
+  }
   
+  do{
+    doWhileArray.pop();
+  }
+  while(maybeTrue() || doWhileArray.length > 0);
 }
