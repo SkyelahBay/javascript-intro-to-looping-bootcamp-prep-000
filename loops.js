@@ -1,9 +1,16 @@
 function forLoop(array){
   let arrayName = array;
   for(var i = 0; i < 25; i++){
-    arrayName.push(`"I am ${i} strange loop${i === 0 ? '' : 's'}."`);
+    if(i === 1){
+      arrayName.push(`"I am 1 strange loop."');
+    }
+    else{
+      arrayName.push(`"I am ${i} strange loops."`);
+    }
   }
 }
+
+
 function whileLoop(n){
   countdown = n;
   while(countdown > 0){
