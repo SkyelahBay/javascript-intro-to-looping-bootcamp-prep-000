@@ -30,4 +30,6 @@ function doWhileLoop(array){
     doWhileArray.pop();
   } while(maybeTrue() && doWhileArray.length > 0);
   
+  return doWhileArray;
+  
 }
