@@ -6,10 +6,7 @@ function forLoop(array){
 function whileLoop(n){
   countdown = n;
   while(countdown > 0){
-    countdown--;
-    if(countdown === 0){
-      return 'done';
-    }
+    return countdown--;
   }
 }
 
