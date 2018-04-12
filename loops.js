@@ -11,10 +11,5 @@ function whileLoop(n){
 }
 
 function doWhileLoop(array){
-  maybeTrue = true;
-  if(maybeTrue){
-    do{
-      array.pop();
-    }while(array.length > 0);
-  }
+  
 }
