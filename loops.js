@@ -10,5 +10,8 @@ function whileLoop(n){
 }
 
 function doWhileLoop(array){
-  do
+  do{
+    array.
+  }
+  while(maybeTrue() && (array.length > 0));
 }
